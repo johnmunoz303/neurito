@@ -1,8 +1,5 @@
 # Experimentos con Neurito
 
-Neurito decide entre **comer, dormir y jugar** a partir de su hambre, energía y aburrimiento. Para dormir se toma en cuenta el cansancio, que se calcula como `1 - energía`. Todos estos valores van de 0 a 1.
-
-Para estas pruebas usé el entrenamiento de `main.py`, sin abrir la ventana del personaje. Se mantuvieron los 3.000 ejemplos de entrenamiento y la semilla 42. Comparé todas las configuraciones con los mismos 1.000 ejemplos nuevos, generados con semilla 123. La pérdida indica cuánto se equivoca el modelo: cuanto más baja, mejor. La precisión indica el porcentaje de decisiones que coinciden con la regla usada para crear los ejemplos.
 
 ## 1. Mantener dos necesidades fijas y cambiar la tercera
 
