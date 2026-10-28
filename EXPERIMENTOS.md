@@ -93,15 +93,15 @@ Además de los datos, habría que ampliar la salida de la red de 3 a 4 opciones 
 
 ### 1. ¿En qué se diferencian pesos y sesgos?
 
-Los **pesos** indican cuánto influye cada señal en lo que aprende la red. Por ejemplo, ayudan a relacionar un nivel alto de hambre con la decisión de comer.
+Los pesos indican cuánto influye cada señal en lo que aprende la red. Por ejemplo, ayudan a relacionar un nivel alto de hambre con la decisión de comer.
 
-Los **sesgos** ajustan el punto desde el que responde cada neurona, como mover el punto de inicio de una balanza. Ambos se van ajustando durante el entrenamiento.
+Los sesgos ajustan el punto desde el que responde cada neurona, como mover el punto de inicio de una balanza. Ambos se van ajustando durante el entrenamiento.
 
 ### 2. ¿Por qué el cansancio es `1 - energía`?
 
 Porque en este proyecto se consideran opuestos: a más energía, menos cansancio. Si la energía es 0,90, el cansancio es 0,10; si la energía baja a 0,20, el cansancio sube a 0,80.
 
-Así se pueden comparar hambre, cansancio y aburrimiento con la misma idea: **un valor más alto representa una necesidad más urgente**. Es una simplificación útil para el juego.
+Así se pueden comparar hambre, cansancio y aburrimiento con la misma idea: un valor más alto representa una necesidad más urgente. Es una simplificación útil para el juego.
 
 ### 3. ¿Qué hace ReLU y qué hace Softmax?
 
